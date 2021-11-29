@@ -1,0 +1,49 @@
+body {
+  background-image: url(../images/tt-playing.jpeg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 0.9;
+  height: 1200px;
+  text-align: center;
+  color: #0b0b4f;
+  font-family: Arial, Helvetica;
+}
+
+#form {
+  color: white;
+  font-size: 18px;
+  padding: 35px;
+  text-align: left;
+  display: block;
+  background-color: #060641;
+  width: 650px;
+  height: 800px;
+  margin-top: 30px;
+  margin-left: auto;
+  font-family: Arial, Helvetica;
+}
+
+.text-box {
+  font-size: 18px;
+  height: 35px;
+  width: 630px;
+  margin-top: 6px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica;
+}
+
+#submit {
+  background: green;
+  font-size: 18px;
+  height: 35px;
+  width: 630px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: Arial, Helvetica;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

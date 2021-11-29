@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+  <title id="title">Survey</title>
+  <div>
+    <h1 id="title">FunPingPong Survey Form</h1>
+    <p id="description">Please help us to improve the program to best support your needs.</p>
+  </div>
+
+
+  </head>
+
+  <body>
+    <div id="form">
+      <form id="survey-form">
+
+        <label id="name-label" for="name">Name</label><br>
+        <input id="name" class="text-box" type="text" name="full-name" placeholder="Enter your name"
+          required="required"><br>
+
+        <label id="email-label" for="email">Email</label><br>
+        <input id="email" class="text-box" type="email" name="email" placeholder="Enter your Email"
+          required="required"><br>
+
+        <label id="number-label" for="age">Age (optional)</label><br>
+        <input id="number" class="text-box" type="number" name="age" min="3" max="100" placeholder="Enter your Age"><br>
+
+        <label for="dropdown">Which option best describes your current experience?</label><br>
+        <select id="dropdown" class="text-box" name="dropdown">
+          <option value="No Experience">No Experience</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Power Player">Power Player</option>
+          <option value="Professional">Professional</option>
+          <option selected="selected">Power Player</option>
+        </select>
+
+        <p>Would you recommend FunPingPong to a friend?</p>
+        <input type="checkbox" id="choice" name="choice" value="Definitely" checked>
+        <label for="choice1">Definitely</label><br>
+        <input type="checkbox" id="choice" name="choice" value="Maybe">
+        <label for="maybe">Maybe</label><br>
+        <input type="checkbox" id="choice" name="choice" value="Not Sure">
+        <label for="notsure">Not Sure</label><br><br>
+
+        <p>What would you like to improve? (check all that apply)</p>
+        <input type="checkbox" id="choice1" name="choice1" value="Definitely">
+        <label for="choice1">Serving</label><br>
+        <input type="checkbox" id="choice2" name="choice2" value="Maybe">
+        <label for="maybe">Receiving</label><br>
+        <input type="checkbox" id="choice3" name="choice3" value="Not Sure">
+        <label for="notsure">Loop</label><br>
+        <input type="checkbox" id="choice4" name="choice4" value="Not Sure">
+        <label for="notsure">Chop</label><br>
+        <input type="checkbox" id="choice5" name="choice5" value="Not Sure">
+        <label for="notsure">Backhand</label><br><br>
+
+        <label for="suggestions">Any comments or suggestions?</label><br>
+        <textarea id="suggestions" name="suggestions" rows="5" cols="76"></textarea><br><br>
+
+
+        <label for="submit"></label>
+        <input id="submit" type="submit" name="submit">
+      </form>
+
+    </div>
+  </body>
+
+</html>
