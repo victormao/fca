@@ -1,20 +1,29 @@
+body {
+  margin: auto;
+  text-align: right;
+}
+
 #header {
   position: fixed;
   width: 100%;
   background-color: #ebcfcf;
   color: black;
-  top: 0;
-  left: 0;
-  text-align: right;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  margin: auto;
 }
 
 #container {
   margin: auto;
   width: 100%;
+  height: 40px;
   display: flex;
 }
 #container .box1 {
-  padding-top: 15px;
+  padding-top: 5px;
   margin-left: 35px;
 }
 #container .box1 #header-img {
@@ -23,19 +32,23 @@
   padding-left: 5px;
 }
 #container .box2 {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: -15px;
 }
 #container .box3 {
+  width: 100%;
   font: 1em sans-serif;
+  text-align: right;
   color: black;
-  padding-top: 10px;
+  margin-right: 5px;
 }
 
 .product-nav {
   display: flex;
   width: auto;
   justify-content: space-evenly;
+  color: black;
+  float: right;
 }
 
 .nav-link {
@@ -51,5 +64,5 @@
 
 #product-video {
   display: block;
-  margin-top: 95px;
+  margin-top: 15px;
 }/*# sourceMappingURL=main.css.map */
