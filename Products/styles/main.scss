@@ -92,7 +92,7 @@ body {
   }
 
   
-#product-video {
+#video {
   display: block;
   margin-top: 60px;
 }
@@ -106,4 +106,17 @@ body {
       font-weight: bold;
     }
   }
+
+#container3 {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin: 20px, 20px; 
+  
+    .prices {
+      width: 20em;
+      height: 30em;
+      border: black;  
+    }
+}
 
