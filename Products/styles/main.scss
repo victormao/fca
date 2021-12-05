@@ -58,7 +58,7 @@ body {
   padding-right: 2em;
   margin-right: 2em;
   margin: 0;
-  font-size: 20px;
+  font-size: 1.2em;
     a {
       text-decoration: none;
     }
@@ -68,3 +68,14 @@ body {
   display: block;
   margin-top: 15px;
 }
+
+#form {
+  margin-top: 1em;
+    #email {
+      font-size: 1.2em;}
+    #submit {
+      font-size: 1.2em;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  }
