@@ -6,7 +6,6 @@ body {
 #header {
   position: fixed;
   width: 100%;
-  background-color: #ebcfcf;
   color: black;
   margin: auto;
 }
@@ -62,9 +61,36 @@ body {
   text-decoration: none;
 }
 
+#container2 {
+  display: block;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+#container2 .features {
+  display: flex;
+}
+#container2 .features .right-col {
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+#container2 .features .icon {
+  width: 80px;
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media screen and (max-width: 600px) {
+  #container2 .features .icon {
+    display: none;
+  }
+}
+
 #product-video {
   display: block;
-  margin-top: 15px;
+  margin-top: 60px;
 }
 
 #form {
@@ -76,5 +102,4 @@ body {
 #form #submit {
   font-size: 1.2em;
   font-weight: bold;
-  text-transform: capitalize;
 }/*# sourceMappingURL=main.css.map */
