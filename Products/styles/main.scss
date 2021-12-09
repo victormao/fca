@@ -70,6 +70,13 @@ body {
     }
 }
 
+button {
+  border: none;
+  margin-top: 20px;
+  font-size: 1.2em;
+  background: none;
+}
+
 #container2 {
   display: block;
   align-items: center;
@@ -94,7 +101,7 @@ body {
   }
 
   
-#video {
+.video {
   display: block;
   margin-top: 60px;
 }
