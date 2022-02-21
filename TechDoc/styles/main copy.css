@@ -1,0 +1,67 @@
+#container {
+  background-color: lightgray;
+  margin-left: 10px;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border: 1px;
+  border-color: black;
+}
+@media screen and (min-width: 800px) {
+  #container {
+    display: flex;
+  }
+}
+@media screen and (max-width: 400px) {
+  #container {
+    display: block;
+  }
+}
+#container #navbar {
+  display: flex;
+  width: 20em;
+  border: 1px;
+  border-style: solid;
+  border-color: darkgray;
+  flex-direction: column;
+}
+#container #navbar #main_topic {
+  margin-left: 10px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border: 1px;
+  border-color: black;
+  font-size: 1.3em;
+  text-align: center;
+  flex: 2.5;
+}
+#container #navbar div.index {
+  display: block;
+  height: 3em;
+  width: 15em;
+  border-style: solid;
+  border-top: 1px;
+  border: 1px;
+  border-color: black;
+}
+#container #navbar div.index .nav-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 1.1em;
+  padding-left: 1.5em;
+}
+#container #main-doc {
+  display: block;
+}
+#container #main-doc .main-section {
+  font-size: 1em;
+  text-align: left;
+  margin-left: 1em;
+  width: auto;
+}
+#container #main-doc #sub-title {
+  padding-top: 1.2em;
+  font-size: 1.1em;
+}/*# sourceMappingURL=main copy.css.map */

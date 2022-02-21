@@ -1,1 +1,148 @@
-//media query: show navbar on left side when screen is normal pc
+//media query: show #navbar on left side when screen is normal pc
+body {
+  overflow: auto;
+  min-width: 290px;
+}
+
+@media  screen and (min-width: 500px) {
+  div#columns {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    padding: 10px;
+    // margin: 10px;
+    grid-template-areas: navbar main-doc;
+    grid-template-columns: 190px auto;
+    .navbar {
+      // change sidebar position based on media
+      position: fixed; 
+      width: 190px;
+      height: 100%; 
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      div.main-topic {
+        header {
+          font-size: 1.5em;
+          margin-bottom: 25px;
+          overflow: auto;
+          height: 100%;
+        }
+      }
+      div.index {
+        height: 3em;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 1px;
+        padding-top: 25px;
+          .nav-link {
+            font-size: 1.3em;
+            color: black;
+            text-decoration: none;
+        }
+      } 
+    }
+  }
+}
+
+// #columns {
+//   @media  screen and (min-width: 500px) {
+//     height: 100vh;
+//     width: 100vw;
+//     display: grid;
+//     padding: 10px;
+//     // margin: 10px;
+//     grid-template-areas: navbar main-doc;
+//     grid-template-columns: 190px auto;
+//     .navbar {
+//       // change sidebar position based on media
+//       position: fixed; 
+//       width: 190px;
+//       height: 100%; 
+//       overflow-y: scroll;
+//       scroll-behavior: smooth;
+//     }
+//   }
+// }
+
+// #columns {
+//   @media screen and (max-width: 499px) {
+//     display: grid;
+//     height: 100vh;
+//     width: 100vw;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 300px auto;
+//     .navbar {
+//       div.main-topic {
+//         header {
+//           font-size: 1.5em;
+//           margin-bottom: 25px;
+//           overflow: auto;
+//           height: 100%;
+//         }
+//       }
+//       div.index {
+//         height: 3em;
+//         width: 100%;
+//         border-top-style: solid;
+//         border-top-width: 1px;
+//         padding-top: 25px;
+//           .nav-link {
+//             font-size: 1.3em;
+//             color: black;
+//             text-decoration: none;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+//   .navbar {
+//     // change sidebar position based on media
+//     // position: fixed; 
+//     width: 100%;
+//     height: 350px; 
+//     overflow-y: scroll;
+//     scroll-behavior: smooth;
+//   }
+// }
+
+// .navbar {
+//     div.main-topic {
+//       header {
+//         font-size: 1.5em;
+//         margin-bottom: 25px;
+//         overflow: auto;
+//         height: 100%;
+//       }
+//     }
+//     div.index {
+//       height: 3em;
+//       width: 100%;
+//       border-top-style: solid;
+//       border-top-width: 1px;
+//       padding-top: 25px;
+//         .nav-link {
+//           font-size: 1.3em;
+//           color: black;
+//           text-decoration: none;
+//       }
+//     }
+//   }
+
+  
+#main-doc {
+    .main-section {
+      font-size: 1em; 
+      text-align: left;
+      padding-right: 1em;
+      padding-left: 3em;
+      margin-right: 3em;
+      width: auto;
+      // overflow-wrap: break-word;
+      header.sub-title {
+        // padding-top: 0.1em;
+        font-size: 1.4em;
+      }
+    }
+  }

@@ -1,0 +1,65 @@
+//media query: show #navbar on left side when screen is normal pc
+
+#container {
+  @media  screen and (min-width: 800px) {
+    display: flex;}
+  @media screen and (max-width: 400px) {
+    display: block;}
+  background-color: lightgray;
+    margin-left: 10px;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border: 1px;
+  border-color: black;
+    #navbar {
+      display: flex;
+      width: 20em;
+      border: 1px;
+      border-style: solid;
+      border-color: darkgray;
+      flex-direction: column;
+        #main_topic {
+          margin-left: 10px;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          border-style: solid;
+          border: 1px;
+          border-color: black;
+          font-size: 1.3em; 
+          text-align: center;
+          flex: 2.5;
+        }
+          div.index {
+            display: block;
+            height: 3em;
+            width: 15em;
+            border-style: solid;
+            border-top: 1px;
+            border: 1px;
+            border-color: black;
+              .nav-link {
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                font-size: 1.1em;
+                padding-left: 1.5em;
+
+              }
+        }
+    }
+    #main-doc {
+      display: block;
+        .main-section {
+          font-size: 1em; 
+          text-align: left;
+          margin-left: 1em;
+          width: auto;
+          }
+          #sub-title {
+            padding-top: 1.2em;
+            font-size: 1.1em;
+          }
+        }
+    }
+

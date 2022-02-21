@@ -1,0 +1,51 @@
+body {
+  overflow: auto;
+  min-width: 290px;
+}
+
+@media screen and (min-width: 500px) {
+  div#columns {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    padding: 10px;
+    grid-template-areas: navbar main-doc;
+    grid-template-columns: 190px auto;
+  }
+  div#columns .navbar {
+    position: fixed;
+    width: 190px;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  div#columns .navbar div.main-topic header {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    overflow: auto;
+    height: 100%;
+  }
+  div#columns .navbar div.index {
+    height: 3em;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 25px;
+  }
+  div#columns .navbar div.index .nav-link {
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+  }
+}
+#main-doc .main-section {
+  font-size: 1em;
+  text-align: left;
+  padding-right: 1em;
+  padding-left: 3em;
+  margin-right: 3em;
+  width: auto;
+}
+#main-doc .main-section header.sub-title {
+  font-size: 1.4em;
+}/*# sourceMappingURL=main.css.map */
