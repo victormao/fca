@@ -18,16 +18,16 @@ body {
   height: auto;
   background-color: aliceblue;
 }
-#projects #container {
+#projects #projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 @media only screen and (max-width: 600px) {
-  #projects #container {
+  #projects #projects-container {
     display: block;
   }
 }
-#projects #container #project-tile {
+#projects #projects-container #project-tile {
   display: flex;
   flex-direction: column;
 }
@@ -64,4 +64,13 @@ button {
   font-size: 1em;
   text-align: center;
   color: white;
+}
+
+.project-image {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
