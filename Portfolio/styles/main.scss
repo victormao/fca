@@ -142,3 +142,24 @@ body {
     color: white;
     background:rgba(0, 0, 0, 0.4)
   }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 1em 2em;
+  }
+
+  .contact-details {
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.2s ease-out;
+  }
